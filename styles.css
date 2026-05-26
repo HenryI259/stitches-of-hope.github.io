@@ -1,0 +1,67 @@
+body {
+  background-image: url('yarn.png');
+  background-size: cover;          
+  background-position: center;     
+  background-repeat: no-repeat;    
+  background-attachment: fixed;    
+}
+
+p, h2, h3, a {
+  color: palevioletred;
+}
+
+.mission-box {
+  width: 90%;
+  max-width: 800px;
+}
+
+.info-boxes {
+  display: flex;
+}
+
+.kits {
+  border: 2px solid palevioletred;
+  border-radius: 20px;
+  width: 30vw;
+  height: 17vw;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.donated-amount {
+  display: flex;
+  justify-content: center;
+}
+
+.donated-num {
+  border: 2px solid palevioletred;
+  border-radius: 5px;
+  font-size: 50px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.donated-comma {
+  font-size: 50px;
+  margin: 15px -2px -2px;
+}
+
+.contact {
+  border: 2px solid palevioletred;
+  border-radius: 20px;
+  width: 30vw;
+  height: 17vw;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.bottom-line {
+  color: palevioletred;
+}
+
+.bottom-div {
+  display: flex;
+  justify-content: center;
+}
